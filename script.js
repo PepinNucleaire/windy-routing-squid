@@ -52,17 +52,25 @@ function parseSquidRouting(text) {
 }
 
 windyInit(options, (windyAPI) => {
-  const { map, store } = windyAPI;
+  const { map, picker, utils, broadcast, store } = windyAPI;
 
+  store.on("pickerLocation", ({ lat, lon }) => {
+    const { values, overlay } = picker.getParams();
+    console.log("location changed", lat, lon, values, overlay);
+  });
+
+  store.set("isolines", "pressure");
+  store.set("latlon", true);
   store.on("timestamp", (ts) => {
     importTrackIntoWindy();
   });
 
   // Handle some events. We need to update the rotation of icons ideally each time
   // leaflet re-renders. them.
-  map.on("zoom", updateIconStyle);
-  map.on("zoomend", updateIconStyle);
-  map.on("viewreset", updateIconStyle);
+  map.on("click", function (ev) {
+    console.log(ev.latlng); // ev is an event object (MouseEvent in this case)
+    picker.open({ lat: ev.latlng.lat, lon: ev.latlng.lng });
+  });
 });
 
 function importTrackIntoWindy() {
