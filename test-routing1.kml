@@ -1,0 +1,1323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gc="http://www.greatcircle.be/gc">
+<Document>
+<name>Route_29/01/2023_07:04</name>
+<description>Powered by Great-Circle (http://www.client-sailing.com)</description>
+<ExtendedData xmlns:prefix="gc">
+    <gc:version>3.2</gc:version>
+</ExtendedData>
+<!-- ROUTE -->
+<Folder>
+    <name>New Route</name>
+    <description></description>
+    <ExtendedData xmlns:prefix="gc">
+        <gc:type>route</gc:type>
+    </ExtendedData>
+    <Placemark>
+        <name>WP0</name>
+        <Point>
+            <coordinates>-1.679351544026673, 46.44559809584004</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="radius">
+                <value></value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP1</name>
+        <Point>
+            <coordinates>-3.251025940559657, 47.4164930728339</coordinates>
+        </Point>
+        <ExtendedData>
+            <Data name="radius">
+                <value></value>
+            </Data>
+        </ExtendedData>
+    </Placemark>
+</Folder>
+<!-- ROUTING -->
+<Folder>
+    <name></name>
+    <description></description>
+    <ExtendedData xmlns:prefix="gc">
+        <gc:type>routing</gc:type>
+        <gc:polar factor="0.95">Pogo 650</gc:polar>
+        <gc:models>
+            <gc:model runtime="1969-12-31T23:59:59Z">gfs_0_25</gc:model>
+        </gc:models>
+        <gc:MinTwa>0</gc:MinTwa>
+        <gc:MaxTwa>165</gc:MaxTwa>
+        <gc:WindMax>60</gc:WindMax>
+        <gc:WindMaxStop></gc:WindMaxStop>
+        <gc:WindFactor>1.04</gc:WindFactor>
+        <gc:WaveMax></gc:WaveMax>
+        <gc:WaveMaxStop></gc:WaveMaxStop>
+        <gc:TackPenalty>120</gc:TackPenalty>
+        <gc:IsochronTimestep>900</gc:IsochronTimestep>
+        <gc:IsochroneHeadingIncrement></gc:IsochroneHeadingIncrement>
+        <gc:IsochroneSectorWidth></gc:IsochroneSectorWidth>
+        <gc:LandMask>mask_150m</gc:LandMask>
+    </ExtendedData>
+    <Placemark>
+        <name>WP 0</name>
+        <Point>
+            <coordinates>-1.6865999999999985, 46.4406</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-29T18:15:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">0.62719592</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-3.5836382400000004</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 1</name>
+        <Point>
+            <coordinates>-1.7158999999999764, 46.4456</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-29T18:30:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">0.5660907199999999</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-3.4906123200000003</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 2</name>
+        <Point>
+            <coordinates>-1.7448999999999728, 46.4506</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-29T18:45:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">0.4670692</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-3.3871978400000002</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 3</name>
+        <Point>
+            <coordinates>-1.7724000000000046, 46.4568</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-29T19:00:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">0.35146488000000004</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-3.2700314400000003</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 4</name>
+        <Point>
+            <coordinates>-1.7989000000000033, 46.463</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-29T19:15:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">0.19389656</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-3.02330704</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 5</name>
+        <Point>
+            <coordinates>-1.8233000000000175, 46.4695</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-29T19:30:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">0.03506464</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-2.7672164</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 6</name>
+        <Point>
+            <coordinates>-1.8455000000000155, 46.4763</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-29T19:45:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">-0.12520144000000002</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-2.50213288</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 7</name>
+        <Point>
+            <coordinates>-1.8682999999999765, 46.4811</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-29T20:00:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">-0.27756248</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-2.2438395200000003</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 8</name>
+        <Point>
+            <coordinates>-1.8897999999999797, 46.4859</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-29T20:15:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">-0.30138472000000005</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-2.04921392</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 9</name>
+        <Point>
+            <coordinates>-1.9096000000000117, 46.4904</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-29T20:30:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">-0.33007208000000005</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-1.8454425600000002</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 10</name>
+        <Point>
+            <coordinates>-1.9266999999999825, 46.4951</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-29T20:45:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">-0.36418096</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-1.63067632</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 11</name>
+        <Point>
+            <coordinates>-1.9417000000000257, 46.4997</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-29T21:00:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">-0.39657904</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-1.40215712</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 12</name>
+        <Point>
+            <coordinates>-1.9540999999999826, 46.5037</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-29T21:15:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">-0.32193408</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-1.0776053600000002</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 13</name>
+        <Point>
+            <coordinates>-1.963799999999992, 46.506</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-29T21:30:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">-0.24955424</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-0.7552261600000001</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 14</name>
+        <Point>
+            <coordinates>-1.9703999999999837, 46.5075</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-29T21:45:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">-0.17927936000000003</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-0.43286672</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 15</name>
+        <Point>
+            <coordinates>-1.9732999999999947, 46.5087</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-29T22:00:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">-0.10115872</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-0.1340612</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 16</name>
+        <Point>
+            <coordinates>-1.9746000000000095, 46.5091</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-29T22:15:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">0.13542048</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-0.20455032</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 17</name>
+        <Point>
+            <coordinates>-1.9746999999999844, 46.5105</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-29T22:30:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">0.37195912000000003</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-0.270972</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 18</name>
+        <Point>
+            <coordinates>-1.9753000000000043, 46.5139</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-29T22:45:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">0.61072336</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-0.32808672000000005</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 19</name>
+        <Point>
+            <coordinates>-1.9762999999999806, 46.5185</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-29T23:00:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">0.84268704</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-0.37692928</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 20</name>
+        <Point>
+            <coordinates>-1.977800000000002, 46.5243</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-29T23:15:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">0.95241016</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-0.37304072</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 21</name>
+        <Point>
+            <coordinates>-1.9802999999999997, 46.5302</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-29T23:30:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">1.06532712</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-0.37997128</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 22</name>
+        <Point>
+            <coordinates>-1.9825999999999908, 46.5377</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-29T23:45:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">1.1797052799999999</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-0.39383448</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 23</name>
+        <Point>
+            <coordinates>-1.9850999999999885, 46.5459</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T00:00:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">1.2890228</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-0.42665272000000004</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 24</name>
+        <Point>
+            <coordinates>-1.9875000000000114, 46.5542</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T00:15:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">1.2822264</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-0.55456024</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 25</name>
+        <Point>
+            <coordinates>-1.9895999999999958, 46.5625</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T00:30:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">1.2633805599999999</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-0.6706065600000001</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 26</name>
+        <Point>
+            <coordinates>-1.9913000000000238, 46.571</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T00:45:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">1.23223048</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-0.7732275200000001</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 27</name>
+        <Point>
+            <coordinates>-1.9925999999999817, 46.5792</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T01:00:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">1.1811644</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-0.84208072</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 28</name>
+        <Point>
+            <coordinates>-1.9936999999999898, 46.5867</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T01:15:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">1.00501128</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-0.57248256</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 29</name>
+        <Point>
+            <coordinates>-1.9954000000000178, 46.5924</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T01:30:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">0.8488896</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-0.3207308</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 30</name>
+        <Point>
+            <coordinates>-1.9972999999999956, 46.5973</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T01:45:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">0.70745896</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-0.07913672</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 31</name>
+        <Point>
+            <coordinates>-1.9986000000000104, 46.6017</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T02:00:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">0.58859736</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">0.16219528000000002</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 32</name>
+        <Point>
+            <coordinates>-2.0027999999999793, 46.6057</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T02:15:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">0.6662874400000001</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">0.46614256000000004</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 33</name>
+        <Point>
+            <coordinates>-2.0097999999999843, 46.611</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T02:30:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">0.7663864</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">0.7606279200000001</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 34</name>
+        <Point>
+            <coordinates>-2.019299999999987, 46.6173</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T02:45:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">0.88587096</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">1.0444251999999998</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 35</name>
+        <Point>
+            <coordinates>-2.0312999999999874, 46.6253</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T03:00:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">1.03690184</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">1.3132776800000001</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 36</name>
+        <Point>
+            <coordinates>-2.0457999999999856, 46.6349</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T03:15:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">1.32708888</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">1.49840496</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 37</name>
+        <Point>
+            <coordinates>-2.0627000000000066, 46.6461</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T03:30:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">1.6260046400000001</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">1.6865045600000002</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 38</name>
+        <Point>
+            <coordinates>-2.081099999999992, 46.6592</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T03:45:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">1.9316076000000002</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">1.8817604</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 39</name>
+        <Point>
+            <coordinates>-2.1000999999999976, 46.6748</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T04:00:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">2.24501784</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">2.08528944</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 40</name>
+        <Point>
+            <coordinates>-2.122099999999989, 46.6909</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T04:15:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">2.56907664</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">2.24797248</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 41</name>
+        <Point>
+            <coordinates>-2.144299999999987, 46.7085</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T04:30:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">2.8966007200000004</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">2.4223316</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 42</name>
+        <Point>
+            <coordinates>-2.16719999999998, 46.7272</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T04:45:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">3.2321390400000003</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">2.60812032</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 43</name>
+        <Point>
+            <coordinates>-2.190999999999974, 46.7473</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T05:00:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">3.59362224</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">2.78491512</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 44</name>
+        <Point>
+            <coordinates>-2.21429999999998, 46.7692</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T05:15:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">4.08926648</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">2.5790627200000005</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 45</name>
+        <Point>
+            <coordinates>-2.2375000000000114, 46.792</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T05:30:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">4.5800664</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">2.35862328</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 46</name>
+        <Point>
+            <coordinates>-2.2626999999999953, 46.814</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T05:45:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">5.02473712</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">2.108912</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 47</name>
+        <Point>
+            <coordinates>-2.2878000000000043, 46.836</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T06:00:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">5.372726320000001</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">1.84020824</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 48</name>
+        <Point>
+            <coordinates>-2.3122000000000185, 46.8582</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T06:15:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">5.42928256</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">1.6351181600000002</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 49</name>
+        <Point>
+            <coordinates>-2.3360000000000127, 46.8806</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T06:30:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">5.46022984</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">1.49877936</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 50</name>
+        <Point>
+            <coordinates>-2.3596000000000004, 46.9028</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T06:45:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">5.4618876</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">1.43411632</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 51</name>
+        <Point>
+            <coordinates>-2.383199999999988, 46.925</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T07:00:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">5.42800336</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">1.4701876800000002</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 52</name>
+        <Point>
+            <coordinates>-2.407600000000002, 46.9471</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T07:15:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">5.30019464</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">1.9598228</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 53</name>
+        <Point>
+            <coordinates>-2.4354999999999905, 46.9669</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T07:30:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">5.10717272</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">2.48045096</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 54</name>
+        <Point>
+            <coordinates>-2.4640999999999735, 46.987</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T07:45:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">4.84463928</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">3.0167456800000005</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 55</name>
+        <Point>
+            <coordinates>-2.4938000000000216, 47.0073</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T08:00:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">4.5265428000000005</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">3.44235112</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 56</name>
+        <Point>
+            <coordinates>-2.5230000000000246, 47.0279</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T08:15:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">4.34524064</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">2.46883</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 57</name>
+        <Point>
+            <coordinates>-2.550299999999993, 47.0465</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T08:30:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">4.1896712</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">1.37179432</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 58</name>
+        <Point>
+            <coordinates>-2.5738999999999805, 47.0626</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T08:45:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">4.05612688</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">0.33480928</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 59</name>
+        <Point>
+            <coordinates>-2.593500000000006, 47.0769</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T09:00:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">3.93694288</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-0.62032984</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 60</name>
+        <Point>
+            <coordinates>-2.6059999999999945, 47.0952</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T09:15:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">3.7541732800000003</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-1.39378408</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 61</name>
+        <Point>
+            <coordinates>-2.6166000000000054, 47.1121</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T09:30:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">3.57463808</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-1.99125784</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 62</name>
+        <Point>
+            <coordinates>-2.6403000000000247, 47.1087</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T09:45:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">3.4054602400000005</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-2.4516003200000003</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 63</name>
+        <Point>
+            <coordinates>-2.669899999999984, 47.1052</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T10:00:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">3.2405484799999997</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-2.74001624</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 64</name>
+        <Point>
+            <coordinates>-2.6995999999999754, 47.102</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T10:15:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">3.1334617600000003</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-2.65425992</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 65</name>
+        <Point>
+            <coordinates>-2.726600000000019, 47.101</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T10:30:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">3.0248836800000003</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-2.5492407200000002</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 66</name>
+        <Point>
+            <coordinates>-2.7536999999999807, 47.0994</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T10:45:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">2.91671328</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-2.4284572</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 67</name>
+        <Point>
+            <coordinates>-2.781400000000019, 47.0954</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T11:00:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">2.8346905600000003</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-2.34557648</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 68</name>
+        <Point>
+            <coordinates>-2.8081999999999994, 47.0922</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T11:15:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">2.9225185600000003</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-2.2748648</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 69</name>
+        <Point>
+            <coordinates>-2.8339000000000283, 47.09</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T11:30:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">3.02041584</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-2.19263928</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 70</name>
+        <Point>
+            <coordinates>-2.859899999999982, 47.0869</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T11:45:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">3.12386568</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-2.1010381600000003</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 71</name>
+        <Point>
+            <coordinates>-2.8845999999999776, 47.0842</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T12:00:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">3.2410788800000003</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-2.00297136</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 72</name>
+        <Point>
+            <coordinates>-2.9080000000000155, 47.0823</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T12:15:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">3.44666712</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-1.96674608</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 73</name>
+        <Point>
+            <coordinates>-2.9132000000000176, 47.0992</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T12:30:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">3.684278</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-1.92611536</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 74</name>
+        <Point>
+            <coordinates>-2.921800000000019, 47.1183</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T12:45:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">3.91154712</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-1.89043088</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 75</name>
+        <Point>
+            <coordinates>-2.931600000000003, 47.1376</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T13:00:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">4.11366488</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-1.8572788</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 76</name>
+        <Point>
+            <coordinates>-2.9429000000000087, 47.1567</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T13:15:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">4.2307252</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-1.73668768</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 77</name>
+        <Point>
+            <coordinates>-2.954999999999984, 47.176</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T13:30:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">4.3411992</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-1.62465576</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 78</name>
+        <Point>
+            <coordinates>-2.968500000000006, 47.1948</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T13:45:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">4.4441415200000005</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-1.52255896</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 79</name>
+        <Point>
+            <coordinates>-2.982599999999991, 47.2137</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T14:00:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">4.53458616</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-1.43733304</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 80</name>
+        <Point>
+            <coordinates>-2.9963000000000193, 47.2336</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T14:15:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">4.54245688</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-1.42294152</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 81</name>
+        <Point>
+            <coordinates>-3.0108000000000175, 47.2529</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T14:30:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">4.544696</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-1.40798112</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 82</name>
+        <Point>
+            <coordinates>-3.024499999999989, 47.2729</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T14:45:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">4.51938968</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-1.41132056</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 83</name>
+        <Point>
+            <coordinates>-3.0394999999999754, 47.2912</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T15:00:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">4.490975840000001</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-1.44371552</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 84</name>
+        <Point>
+            <coordinates>-3.0545999999999935, 47.3083</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T15:15:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">4.39153</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-1.562704</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 85</name>
+        <Point>
+            <coordinates>-3.0670000000000073, 47.3281</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T15:30:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">4.254463200000001</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-1.6855332</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 86</name>
+        <Point>
+            <coordinates>-3.079499999999996, 47.3462</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T15:45:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">4.0917916000000005</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-1.80605152</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 87</name>
+        <Point>
+            <coordinates>-3.0903999999999883, 47.3646</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T16:00:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">3.89446096</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-1.92999768</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 88</name>
+        <Point>
+            <coordinates>-3.0994999999999777, 47.3834</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T16:15:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">3.62923704</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-2.0565438400000002</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 89</name>
+        <Point>
+            <coordinates>-3.1070000000000277, 47.4013</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T16:30:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">3.32590336</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-2.19067576</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 90</name>
+        <Point>
+            <coordinates>-3.113200000000006, 47.4182</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T16:45:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">2.9867146399999998</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-2.3327980000000004</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 91</name>
+        <Point>
+            <coordinates>-3.1363000000000056, 47.4165</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T17:00:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">2.8427859200000003</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-2.4038144000000004</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 92</name>
+        <Point>
+            <coordinates>-3.162399999999991, 47.4156</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T17:15:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">2.4341356</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-2.4788368800000002</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 93</name>
+        <Point>
+            <coordinates>-3.188199999999995, 47.4153</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T17:30:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">2.00387096</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-2.56139</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 94</name>
+        <Point>
+            <coordinates>-3.2158999999999764, 47.414</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T17:45:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">1.5812503199999999</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-2.64313608</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 95</name>
+        <Point>
+            <coordinates>-3.2425999999999817, 47.4153</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T18:00:54Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+            <gc:WeatherVariable model="gfs" name="10u">1.10929936</gc:WeatherVariable>
+            <gc:WeatherVariable model="gfs" name="10v">-2.7404395200000002</gc:WeatherVariable>
+        </ExtendedData>
+    </Placemark>
+    <Placemark>
+        <name>WP 96</name>
+        <Point>
+            <coordinates>-3.2509999999999764, 47.4165</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>2023-01-30T18:05:56Z</when>
+        </TimeStamp>
+        <ExtendedData xmlns:prefix="gc">
+        </ExtendedData>
+    </Placemark>
+</Folder>
+</Document>
+</kml>
