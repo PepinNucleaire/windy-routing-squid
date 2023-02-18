@@ -1,5 +1,6 @@
 const options = {
-  key: "SKj6NGUH7pGeDFEz9WFARxfyOeOdL9cX", // REPLACE WITH YOUR KEY !!!
+  // key: "SKj6NGUH7pGeDFEz9WFARxfyOeOdL9cX", // REPLACE WITH YOUR KEY !!!
+  key: "1I6lLiqgpo5krbQMdhnTmLX3zJtKzMGT",
   lat: 45,
   lon: -1,
   zoom: 5,
@@ -53,13 +54,16 @@ function parseSquidRouting(text) {
 }
 
 windyInit(options, (windyAPI) => {
-  const { map, picker, utils, broadcast, store } = windyAPI;
+  const { map, picker, utils, broadcast, store, overlays } = windyAPI;
 
   store.on("pickerLocation", ({ lat, lon }) => {
     const { values, overlay } = picker.getParams();
-    // console.log("location changed", lat, lon, values, overlay);
+    console.log(picker.getParams());
+    // console.log(values, overlay);
+    console.log(overlays.wind);
+    console.log(utils.wind2obj(values));
   });
-
+  console.log(store.getAllowed("product"));
   store.set("isolines", "pressure");
   store.set("latlon", true);
   store.on("timestamp", (ts) => {
@@ -71,7 +75,7 @@ windyInit(options, (windyAPI) => {
   // Handle some events. We need to update the rotation of icons ideally each time
   // leaflet re-renders. them.
   map.on("click", function (ev) {
-    console.log(ev.latlng); // ev is an event object (MouseEvent in this case)
+    // console.log(ev); // ev is an event object (MouseEvent in this case)
     picker.open({ lat: ev.latlng.lat, lon: ev.latlng.lng });
   });
 });
@@ -139,9 +143,9 @@ function drawOnWindy(trackWTs) {
     trackWTs[trackWTs.length - 2]
   );
 
-  console.log("Distance: ", navInfoDirect.distance, " nm");
-  console.log("Speed: ", navInfoDirect.speed, " knots");
-  console.log("heading: ", navInfoDirect.heading, " degrees");
+  var navTotal = getNavInfo(trackWTs[trackWTs.length - 1], trackWTs[0]);
+  console.log(navTotal);
+  console.log(navInfoDirect);
 
   // console.log(heading);
   const icon = marker._icon;

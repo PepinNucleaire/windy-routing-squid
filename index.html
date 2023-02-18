@@ -16,7 +16,19 @@
     <input hidden type="text" id="dataUploaded" onsubmit="importTrackIntoWindy()">
 
 
-
+    <div id="infoNavigation">
+        <ul>
+            <li>
+                Speed : <span id="speed"></span> knots
+            </li>
+            <li>
+                Position : <span id="latlon"></span>
+            </li>
+            <li>
+                Wind Speed : <span id="windspeed"></span> knots @ <span id="winddirection"></span>
+            </li>
+        </ul>
+    </div>
     <div id="windy"></div>
     <script src="script.js"></script>
 
