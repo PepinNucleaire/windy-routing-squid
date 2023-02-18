@@ -19,6 +19,7 @@ function readFile() {
     var result = parseSquidRouting(rawText);
     // console.log(JSON.stringify(result));
     document.getElementById("dataUploaded").value = JSON.stringify(result);
+    importTrackIntoWindy();
   };
   reader.readAsText(file[0]);
 }
@@ -30,7 +31,7 @@ function parseSquidRouting(text) {
   // console.log(parsedFile);
   const rawRoute = parsedFile.kml.Document.Folder[0];
   const rawRouting = parsedFile.kml.Document.Folder[1];
-  console.log(rawRouting);
+
   var route = {
     name: rawRoute.name,
     tracks: rawRoute.Placemark.map((x) => [
@@ -46,7 +47,7 @@ function parseSquidRouting(text) {
       new Date(x.TimeStamp.when).getTime(),
     ]),
   };
-  console.log(routing);
+
   // const layer = L.polyline(route.track).addTo(map);
   return { route: route, routing: routing };
 }
@@ -56,7 +57,7 @@ windyInit(options, (windyAPI) => {
 
   store.on("pickerLocation", ({ lat, lon }) => {
     const { values, overlay } = picker.getParams();
-    console.log("location changed", lat, lon, values, overlay);
+    // console.log("location changed", lat, lon, values, overlay);
   });
 
   store.set("isolines", "pressure");
@@ -64,7 +65,9 @@ windyInit(options, (windyAPI) => {
   store.on("timestamp", (ts) => {
     importTrackIntoWindy();
   });
-
+  broadcast.on("redrawFinished", (params) => {
+    // console.log("Map was rendered:", params);
+  });
   // Handle some events. We need to update the rotation of icons ideally each time
   // leaflet re-renders. them.
   map.on("click", function (ev) {
@@ -74,6 +77,9 @@ windyInit(options, (windyAPI) => {
 });
 
 function importTrackIntoWindy() {
+  if (document.getElementById("dataUploaded").value == "") {
+    return;
+  }
   var routing = JSON.parse(document.getElementById("dataUploaded").value);
   var allTrack = routing.routing.tracks;
   var timestamp = W.store.get("timestamp");
@@ -82,14 +88,27 @@ function importTrackIntoWindy() {
     return point[2] < timestamp;
   });
   var track = trackWTs.map((x) => [x[0], x[1]]);
-  drawOnWindy(track);
+  drawOnWindy(trackWTs);
 }
+
 var layerMarkers = [];
-function drawOnWindy(track) {
-  L.polyline(track, {
+var lines = [];
+
+function drawOnWindy(trackWTs) {
+  var track = trackWTs.map((x) => [x[0], x[1]]);
+
+  if (track.length == 0) {
+    return;
+  }
+  const trackLine = L.polyline(track, {
     color: `red`,
-    weight: 4,
+    weight: 2,
+    name: "track1",
   }).addTo(W.map.map);
+  if (lines.length > 0) {
+    lines[lines.length - 1].remove(W.map.map);
+  }
+  lines.push(trackLine);
 
   const MARKER =
     encodeURIComponent(`<?xml version="1.0" encoding="UTF-8" standalone="no"?>
@@ -108,18 +127,26 @@ function drawOnWindy(track) {
     layerMarkers[layerMarkers.length - 1].remove(W.map.map);
   }
 
-  marker = L.marker(track[track.length - 1], {
+  const marker = L.marker(track[track.length - 1], {
     icon: BoatIcon,
   });
+  layerMarkers.push(marker);
 
   marker.addTo(W.map.map);
-  var heading = getBearing(track[track.length - 1], track[track.length - 4]);
 
-  console.log(heading);
+  var navInfoDirect = getNavInfo(
+    trackWTs[trackWTs.length - 1],
+    trackWTs[trackWTs.length - 2]
+  );
+
+  console.log("Distance: ", navInfoDirect.distance, " nm");
+  console.log("Speed: ", navInfoDirect.speed, " knots");
+  console.log("heading: ", navInfoDirect.heading, " degrees");
+
+  // console.log(heading);
   const icon = marker._icon;
-  icon.style.transform = `${icon.style.transform} rotateZ(${heading}deg)`;
+  icon.style.transform = `${icon.style.transform} rotateZ(${navInfoDirect.heading}deg)`;
   icon.style.transformOrigin = "center";
-  layerMarkers.push(marker);
 }
 
 function radians(n) {
@@ -129,7 +156,46 @@ function degrees(n) {
   return n * (180 / Math.PI);
 }
 
+function getNavInfo(lastPoint, firstPoint) {
+  var distance = getDistance(lastPoint, firstPoint);
+
+  var speed = getSpeed(distance, lastPoint, firstPoint);
+
+  var heading = getBearing(lastPoint, firstPoint);
+
+  return { distance: distance, speed: speed, heading: heading };
+}
+function getSpeed(distance, lastPoint, firstPoint) {
+  return distance / ((lastPoint[2] - firstPoint[2]) / 1000 / 60 / 60);
+}
+function getDistance(lastPoint, firstPoint) {
+  var lat2 = lastPoint[0];
+  var lon2 = lastPoint[1];
+  var lat1 = firstPoint[0];
+  var lon1 = firstPoint[1];
+
+  var R = 6371; // km
+  //has a problem with the .toRad() method below.
+  var x1 = lat2 - lat1;
+  var dLat = radians(x1);
+  var x2 = lon2 - lon1;
+  var dLon = radians(x2);
+  var a =
+    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+    Math.cos(radians(lat1)) *
+      Math.cos(radians(lat2)) *
+      Math.sin(dLon / 2) *
+      Math.sin(dLon / 2);
+  var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  var d = (R * c) / 1.852;
+
+  return d;
+}
+
 function getBearing(end, start) {
+  if (!end && !start) {
+    return 0;
+  }
   startLat = radians(start[0]);
   startLong = radians(start[1]);
   endLat = radians(end[0]);
